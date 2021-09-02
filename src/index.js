@@ -85,7 +85,7 @@ const App = () => {
                     value={xAttribute}
                     onChange={({ value }) => setXAttribute(value)}
                 />
-                <span className="dropdown-label">x-Axis:</span>
+                <span className="dropdown-label">y-Axis:</span>
                 <ReactDropdown
                     options={attributes}
                     value={yAttribute}
